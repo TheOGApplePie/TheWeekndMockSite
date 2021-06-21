@@ -3,123 +3,118 @@
     <head>
         <title>The Weeknd | Store</title>
         <meta name = "Description" content="This is the description">
+        <link rel="stylesheet" href="styles.css"/>
         <body>
-            <header>
-                <nav>
+            <header class="main-header">
+                <nav class="nav main-nav">
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="store.html">Store</a></li>
                     </ul>
                 </nav>
-                <hr>
-                <h1>The Weeknd</h1>
+                <h1 class = "band-name band-name-large">The Weeknd</h1>
             </header>
-            <section>
-                <h2>MUSIC</h2>
-                <div>
-                    <div>
-                        <strong>Album 1</strong>
-                    </div>
-                    <img src="Images/Album1.jpg">
-                    <div>
-                        <span>$12.99</span>
-                        <button role = "button">ADD TO CART</button>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <strong>Album 2</strong>
-                    </div>
-                    <img src="Images/Album2.jpg">
-                    <div>
-                        <span>$12.99</span>
-                        <button role = "button">ADD TO CART</button>
+            <section class ="container content-section">
+                <h2 class="section-header">MUSIC</h2>
+                <div class = "shop-items">
+                <div class = "shop-item">                  
+                    <span class = "shop-item-title">Album 1</span>
+                    <img class= "shop-item-image"src="Images/Album1.jpg">
+                    <div class="shop-item-details">
+                        <span class ="shop-item-price">$12.99</span>
+                        <button class ="btn btn-primary shop-item-button"role = "button">ADD TO CART</button>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <strong>Album 3</strong>
-                    </div>
-                    <img src="Images/Album3.jpg">
-                    <div>
-                        <span>$12.99</span>
-                        <button role = "button">ADD TO CART</button>
+                <div class = "shop-item">
+                        <span class = "shop-item-title">Album 2</span>
+                    <img class= "shop-item-image"src="Images/Album2.jpg">
+                    <div class="shop-item-details">
+                        <span class ="shop-item-price">$12.99</span>
+                        <button class ="btn btn-primary shop-item-button"role = "button">ADD TO CART</button>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <strong>Album 4</strong>
-                    </div>
-                    <img src="Images/Album4.jpg">
-                    <div>
-                        <span>$12.99</span>
-                        <button role = "button">ADD TO CART</button>
+                <div class = "shop-item">
+                        <span class = "shop-item-title">Album 3</span>
+                    <img class= "shop-item-image"src="Images/Album3.jpg">
+                    <div class="shop-item-details">
+                        <span class ="shop-item-price">$12.99</span>
+                        <button class ="btn btn-primary shop-item-button"role = "button">ADD TO CART</button>
                     </div>
                 </div>
+                <div class = "shop-item">
+                        <span class = "shop-item-title">Album 4</span>
+                    <img class= "shop-item-image"src="Images/Album4.jpg">
+                    <div class="shop-item-details">
+                        <span class ="shop-item-price">$12.99</span>
+                        <button class ="btn btn-primary shop-item-button"role = "button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
             </section>
-            <section>
-                <h2>MERCH</h2>
-                <div>
-                    <div>
-                        <strong>TShirt</strong>
-                    </div>
-                    <img src="Images/Tshirt.png">
-                    <div>
-                        <span>$19.99</span>
-                        <button role = "button">ADD TO CART</button>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <strong>Coffee Cup</strong>
-                    </div>
-                    <img src="Images/mug.jpg">
-                    <div>
-                        <span>$9.99</span>
-                        <button role = "button">ADD TO CART</button>
+            <section class = "container content-section">
+                <h2 class="section-header">MERCH</h2>
+                <div class = "shop-items">
+                <div class = "shop-item">
+                        <span class = "shop-item-title">TShirt</span>
+                    <img class= "shop-item-image"src="Images/Tshirt.png">
+                    <div class="shop-item-details">
+                        <span class ="shop-item-price">$19.99</span>
+                        <button class ="btn btn-primary shop-item-button"role = "button">ADD TO CART</button>
                     </div>
                 </div>
+                <div class = "shop-item">
+                        <span class = "shop-item-title">Coffee Cup</span>
+                    <img class= "shop-item-image"src="Images/mug.jpg">
+                    <div class="shop-item-details">
+                        <span class ="shop-item-price">$9.99</span>
+                        <button class ="btn btn-primary shop-item-button"role = "button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
             </section>
-            <section>
-                <h2>CART</h2>
-                <div>
-                    <strong>ITEM</strong>
-                    &lt;&gt;
-                    <strong>PRICE</strong>
-                    &lt;&gt;
-                    <strong>QUANTITY</strong>
+            <section class ="container content-section">
+                <h2 class="section-header">CART</h2>
+                <div class ="cart-row">
+                    <span class ="cart-item cart-header cart-column">ITEM</span>
+                    <span class ="cart-price cart-header cart-column">PRICE</span>
+                    <span class ="cart-quantity cart-header cart-column">QUANTITY</span>
                 </div>
-                <div>
-                    <img src="Images/Tshirt.png" width="100">
-                    <span>T-shirt</span>
-                    &lt;&gt;
-                    <span>19.99</span>
-                    &lt;&gt;
-                    <input type="number" value="1">
-                    <button role="button">REMOVE</button>
+                <div class ="cart-items">
+                <div class = "cart-row">
+                    <div class = "cart-item cart-column">
+                        <img class = "cart-item-image"src="Images/Tshirt.png" width="100">
+                        <span class ="cart-item-title">T-shirt</span>
+                    </div>
+                    <span class ="cart-price cart-column">$19.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class = "cart-quantity-input"type="number" value="1">
+                        <button class = "btn btn-danger"role="button">REMOVE</button>
+                    </div>
                 </div>
-                <div>
-                    <img src="Images/mug.jpg" width="100">
-                    <span>Mug</span>
-                    &lt;&gt;
-                    <span>9.99</span>
-                    &lt;&gt;
-                    <input type="number" value="2">
-                    <button role="button">REMOVE</button>
+                <div class = "cart-row">
+                    <div class = "cart-item cart-column">
+                        <img class ="cart-item-image"src="Images/mug.jpg" width="100">
+                        <span class ="cart-item-title">Mug</span>
+                    </div>
+                    <span class ="cart-price cart-column">$9.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class = "cart-quantity-input"type="number" value="2">
+                        <button class = "btn btn-danger"role="button">REMOVE</button>
+                    </div>
                 </div>
-                <hr>
-                <div>
-                    <strong>Total</strong>
-                    <span>39.97</span>
+            </div>
+                <div class="cart-total">
+                    <span class ="cart-total-title">Total</span>
+                    <span class = "cart-total-price">$39.97</span>
                 </div>
-                <div>
-                    <button role="button">PURCHASE</button>
-                </div>
+                
+                    <button class = "btn btn-primary btn-purchase"role="button">PURCHASE</button>
             </section>
-            <footer>
-                <h3>The Weeknd</h3>
-                <ul>
+            <footer class="main-footer">
+                <div class="container main-footer-container">
+                <h3 class="band-name">The Weeknd</h3>
+                <ul class = "nav footer-nav">
                     <li>
                         <a href="https://www.facebook.com/theweeknd/"><img src="Images/facebook.png"></a>
                     </li>
@@ -130,6 +125,7 @@
                         <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ"><img src="Images/youtube.png"></a>
                     </li>
                 </ul>
+            </div>
             </footer>
         </body>
     </head>

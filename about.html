@@ -3,25 +3,29 @@
     <head>
         <title>The Weeknd | About</title>
         <meta name = "Description" content="This is the description">
+        <link rel="stylesheet" href="styles.css"/>
         <body>
-            <header>
-                <nav>
+            <header class="main-header">
+                <nav class="nav main-nav">
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="store.html">Store</a></li>
                     </ul>
                 </nav>
-                <hr>
-                <h1>The Weeknd</h1>
+                
+                <h1 class = "band-name band-name-large">The Weeknd</h1>
             </header>
-            <section>
-                <h2>ABOUT</h2>
+            <section class="content-section container">
+                <h2 class="section-header">ABOUT</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ullamcorper eu massa nec convallis. 
                 Quisque fringilla magna non sem interdum accumsan. Praesent eu neque id elit ornare faucibus ac ac mauris. 
                 Proin tincidunt commodo feugiat. Curabitur a rutrum mauris, quis dictum orci. Nam eget pharetra leo. 
                 In lorem nunc, fringilla a justo id, lacinia accumsan metus.
+                </p>
+                <img class ="about-band-image" src = 'Images/TheWeeknd.png'>
 
+                <p>
                 Maecenas rutrum risus sed velit cursus, ut viverra ex blandit. In quam diam, tincidunt non mauris eu, 
                 consequat efficitur nisi. Vivamus sed ligula aliquet, tincidunt risus at, egestas velit. Ut elementum purus 
                 at vestibulum convallis. Donec elementum sed elit at vestibulum. Class aptent taciti sociosqu ad litora 
@@ -32,15 +36,15 @@
                 Quisque vestibulum felis a lacus volutpat, pulvinar gravida augue porttitor. Nulla vestibulum porttitor 
                 purus, non iaculis nisl fringilla in. Cras a ultrices enim, quis tempor nunc. Sed mollis fermentum sapien, 
                 a elementum arcu dapibus sed.</p>
-                <img src = 'Images/TheWeeknd.jpeg'>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ullamcorper eu massa nec convallis. 
                     Quisque fringilla magna non sem interdum accumsan. Praesent eu neque id elit ornare faucibus ac ac mauris. 
                     Proin tincidunt commodo feugiat. Curabitur a rutrum mauris, quis dictum orci. Nam eget pharetra leo. 
                     In lorem nunc, fringilla a justo id, lacinia accumsan metus.</p>
             </section>
-            <footer>
-                <h3>The Weeknd</h3>
-                <ul>
+            <footer class="main-footer">
+                <div class="container main-footer-container">
+                <h3 class="band-name">The Weeknd</h3>
+                <ul class = "nav footer-nav">
                     <li>
                         <a href="https://www.facebook.com/theweeknd/"><img src="Images/facebook.png"></a>
                     </li>
@@ -51,6 +55,7 @@
                         <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ"><img src="Images/youtube.png"></a>
                     </li>
                 </ul>
+            </div>
             </footer>
         </body>
     </head>

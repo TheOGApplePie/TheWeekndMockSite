@@ -3,90 +3,72 @@
     <head>
         <title>The Weeknd | Home</title>
         <meta name = "Description" content="This is the description">
+        <link rel="stylesheet" href="styles.css"/>
         <body>
-            <header>
-                <nav>
+            <header class="main-header">
+                <nav class="nav main-nav">
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="store.html">Store</a></li>
                     </ul>
                 </nav>
-                <hr>
-                <h1>The Weeknd</h1>
-                <button>Get Our Latest Album</button>
-                <br>
-                <br>
-                <!-- TODO: Find a suitable bg image-->
-                <button>&#9658;</button>
+                <h1 class = "band-name band-name-large">The Weeknd</h1>
+               <div class ="container">
+                <button class = "btn btn-header" type = "button">Get Our Latest Album</button>
+            </div>
+            <button class = "btn btn-header btn-play" type = "button">&#9658;</button>
             </header>
-            <section>
-                <h2>TOURS</h2>
+            <section class="content-section container">
+                <h2 class ="section-header">TOURS</h2>
                 <div>
-                    <div>
-                        <strong>Jan 1</strong>
-                        &lt;&gt;
-                        <span>Toronto, ON</span>
-                        &lt;&gt;
-                        <span>Rorgers Centre</span>
-                        &lt;&gt;
-                        <button type = "button">Buy Tickets</button>
-                        <hr>
+                    <div class = "tour-row">
+                        <span class = "tour-item tour-date">Jan 1</span>
+                        <span class = "tour-item tour-city"> Toronto, ON</span>
+                        <span class = "tour-item tour-arena">Rorgers Centre</span>
+                        <button type = "button"class = "btn tour-item tour-btn btn-primary">Buy Tickets</button>
                     </div>
-                    <div>
-                        <strong>Jan 15</strong>
-                        &lt;&gt;
-                        <span>Victoria, BC</span>
-                        &lt;&gt;
-                        <span>Some Centre</span>
-                        &lt;&gt;
-                        <button type = "button">Buy Tickets</button>
-                        <hr>
+
+                    <div class = "tour-row">
+                        <span class = "tour-item tour-date">Jan 15</span>
+                        <span class = "tour-item tour-city">Victoria, BC</span>
+                        <span class = "tour-item tour-arena">Some Centre</span>
+                        <button type = "button" class = "btn tour-item tour-btn btn-primary">Buy Tickets</button>
                     </div>
-                    <div>
-                        <strong>Feb 1</strong>
-                        &lt;&gt;
-                        <span>Winnipeg, MB</span>
-                        &lt;&gt;
-                        <span>Some Other Centre</span>
-                        &lt;&gt;
-                        <button type = "button">Buy Tickets</button>
-                        <hr>
+
+                    <div class = "tour-row">    
+                        <span class = "tour-item tour-date">Feb 1</span>
+                        <span class = "tour-item tour-city">Winnipeg, MB</span>
+                        <span class = "tour-item tour-arena">Some Other Centre</span>
+                        <button type = "button" class = "btn tour-item tour-btn btn-primary">Buy Tickets</button>
                     </div>
-                    <div>
-                        <strong>Feb 15</strong>
-                        &lt;&gt;
-                        <span>Montreal, QC</span>
-                        &lt;&gt;
-                        <span>Another Centre</span>
-                        &lt;&gt;
-                        <button type = "button">Buy Tickets</button>
-                        <hr>
+
+                    <div class = "tour-row">
+                        <span class = "tour-item tour-date">Feb 15</span>
+                        <span class = "tour-item tour-city">Montreal, QC</span>
+                        <span class = "tour-item tour-arena">Another Centre</span>
+                        <button type = "button" class = "btn tour-item tour-btn btn-primary">Buy Tickets</button>
                     </div>
-                    <div>
-                        <strong>Mar 1</strong>
-                        &lt;&gt;
-                        <span>Yellowknife, YK</span>
-                        &lt;&gt;
-                        <span>Another Other Centre</span>
-                        &lt;&gt;
-                        <button type = "button">Buy Tickets</button>
-                        <hr>
+
+                    <div class = "tour-row">
+                        <span class = "tour-item tour-date">Mar 1</span>
+                        <span class = "tour-item tour-city">Yellowknife, YK</span>
+                        <span class = "tour-item tour-arena">Another Other Centre</span>
+                        <button type = "button" class = "btn tour-item tour-btn btn-primary">Buy Tickets</button>
                     </div>
-                    <div>
-                        <strong>Mar 15</strong>
-                        &lt;&gt;
-                        <span>Iqaluit, NT</span>
-                        &lt;&gt;
-                        <span>A Centre No One's Heard Of</span>
-                        &lt;&gt;
-                        <button type = "button">Buy Tickets</button>
+
+                    <div class = "tour-row">
+                        <span class = "tour-item tour-date">Mar 15</span>
+                        <span class = "tour-item tour-city">Iqaluit, NT</span>
+                        <span class = "tour-item tour-arena">A Centre No One's Heard Of</span>
+                        <button type = "button" class = "btn tour-item tour-btn btn-primary">Buy Tickets</button>
                     </div>
                 </div>
             </section>
-            <footer>
-                <h3>The Weeknd</h3>
-                <ul>
+            <footer class="main-footer">
+                <div class="container main-footer-container">
+                <h3 class="band-name">The Weeknd</h3>
+                <ul class = "nav footer-nav">
                     <li>
                         <a href="https://www.facebook.com/theweeknd/"><img src="Images/facebook.png"></a>
                     </li>
@@ -97,6 +79,7 @@
                         <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ"><img src="Images/youtube.png"></a>
                     </li>
                 </ul>
+            </div>
             </footer>
         </body>
     </head>
