@@ -8,7 +8,7 @@ function ready(){
      * Fetch content from the Wikipedia API using the URL.
      * Use Regular Expressions in along with the 'replace all' method to filter out unwanted data from the results json
      */
-    let url = 'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&titles=The_Weeknd&rvprop=content';
+    let url = 'http://localhost:3000/about';
     fetch(url)
     .then(response => {
         return response.json()})
